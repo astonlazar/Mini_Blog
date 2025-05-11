@@ -17,20 +17,23 @@ A simple blog platform built with the MERN stack (MongoDB, Express, React, Node.
    git clone https://github.com/astonlazar/Mini-Blog.git
 
 2. Navigate to the project directory:
+   ```bash
    cd Mini-Blog
 
 3. Install dependencies for both the backend (mini-blog-server) and frontend (mini-blog-client):
+   ```bash
    # Install backend dependencies
-  cd mini-blog-server
-  npm install
+   cd mini-blog-server
+   npm install
   
-  # Install frontend dependencies
-  cd ../mini-blog-client
-  npm install
+   # Install frontend dependencies
+   cd ../mini-blog-client
+   npm install
 
 4. Set up environment variables for both the server and client. Create a .env file for each and set up necessary configurations       (database URI, JWT secret, PORT number).
 
 5. Start both the server and client from the root directory:
+   ```bash
    # Start the server (backend)
    cd mini-blog-server
    npm start
