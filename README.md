@@ -8,3 +8,34 @@ A simple blog platform built with the MERN stack (MongoDB, Express, React, Node.
 - **CRUD Operations**: Users can create, read, update, and delete blog posts.
 - **Responsive UI**: A clean, user-friendly interface built with React and styled using Tailwind CSS.
 - **Tags**: Add tags to posts for easy categorization and search.
+
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/astonlazar/Mini-Blog.git
+
+2. Navigate to the project directory:
+   cd Mini-Blog
+
+3. Install dependencies for both the backend (mini-blog-server) and frontend (mini-blog-client):
+   # Install backend dependencies
+  cd mini-blog-server
+  npm install
+  
+  # Install frontend dependencies
+  cd ../mini-blog-client
+  npm install
+
+4. Set up environment variables for both the server and client. Create a .env file for each and set up necessary configurations       (database URI, JWT secret, PORT number).
+
+5. Start both the server and client from the root directory:
+   # Start the server (backend)
+   cd mini-blog-server
+   npm start
+    
+   # In a new terminal, start the client (frontend)
+   cd ../mini-blog-client
+   npm start
+
