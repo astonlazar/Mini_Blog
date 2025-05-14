@@ -40,5 +40,5 @@ A simple blog platform built with the MERN stack (MongoDB, Express, React, Node.
     
    # In a new terminal, start the client (frontend)
    cd ../mini-blog-client
-   npm start
+   npm run dev
 
