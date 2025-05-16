@@ -14,7 +14,7 @@ A simple blog platform built with the MERN stack (MongoDB, Express, React, Node.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/astonlazar/Mini-Blog.git
+   git clone https://github.com/astonlazar/Mini_Blog.git
 
 2. Navigate to the project directory:
    ```bash
